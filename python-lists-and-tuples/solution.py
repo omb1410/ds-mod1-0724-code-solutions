@@ -10,4 +10,6 @@ def make_lists(letters):
 
 
 L = "abcdefghijklmnopqrstuvwxyz"
-print(make_lists(L))
+alphabet, indices = make_lists(L)
+new_list = zip(alphabet,indices)
+print(list(new_list))
